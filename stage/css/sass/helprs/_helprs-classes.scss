@@ -1,0 +1,53 @@
+.buttons{
+  background: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  color: #ff3500;
+  padding: 17px 60px;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  transition: all .3s;
+  text-transform: capitalize;
+  &:hover{
+    background-color: #ff3500;
+    color: #fff !important;
+  }
+  a{
+    color: $hover_color;
+  }
+}
+.head_title{
+  @media(max-width: 767px) {
+    margin-bottom: 20px;
+  }
+  h3{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #191d34;
+    font-family: "Poppins", sans-serif;
+    @media(max-width: 767px) {
+      font-size: 27px;
+      line-height: 33px;
+    }
+    @media(min-width: 768px) and (max-width: 991px) {
+      font-size: 32px;
+    }
+    @media(min-width: 992px) and (max-width: 1200px) {
+      font-size: 33px;
+    }
+    span{
+      font-weight: 300;
+    }
+  }
+  p{
+    color: #66666f;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 54px;
+  }
+}

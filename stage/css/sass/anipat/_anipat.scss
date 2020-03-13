@@ -1,0 +1,41 @@
+.anipat_area{
+  background-image: url('../images/contact_bg.png');
+  background-position: center center;
+  background-size: cover;
+  padding-top: 170px;
+  padding-bottom: 160px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  @media(max-width: 767px) {
+    background-size: cover;
+    padding: 100px 0;
+  }
+  .anipat_text{
+    .head_title{
+      h3{
+        color: #fff;
+        @media(max-width: 767px) {
+          font-size: 27px;
+          line-height: 33px;
+        }
+      }
+      p{
+        font-size: 25px;
+        color: #fff;
+        line-height: 40px;
+        margin-top: 35px;
+        margin-bottom: 50px;
+      }
+    }
+    .contact_btn{
+      @media(max-width: 767px){
+        display: block !important;
+      }
+      p{
+        margin: 17px 0 0 10px;
+        color: #fff;
+        font-size: 17px;
+      }
+    }
+  }
+}

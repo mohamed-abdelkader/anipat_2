@@ -1,0 +1,45 @@
+.adopt_us{
+  padding-bottom: 90px;
+  padding-top: 125px;
+  @media(max-width: 767px) {
+    padding: 60px 0;
+  }
+  .adopt_us_area{
+    .head_title{
+      @media(max-width: 767px) {
+        padding-bottom: 60px;
+      }
+      .buttons{
+        background-image: -webkit-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
+        color: #fff;
+      }
+    }
+    .adopt_counter{
+      .adopt_info{
+        margin-bottom: 40px;
+        box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+        border-radius: 14px;
+        background: #fff;
+        padding: 40px 40px 33px 40px;
+        h3{
+          font-size: 60px;
+          font-weight: 700;
+          font-family: "Poppins", sans-serif;
+          color: #383737;
+          display: inline-block;
+          margin-bottom: 2px;
+          margin-top: 22px;
+          line-height: 1;
+        }
+        p{
+          font-size: 20px;
+          color: #808080;
+          font-weight: 400;
+          font-family: "Open Sans", sans-serif;
+          display: block;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

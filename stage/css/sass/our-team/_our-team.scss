@@ -1,0 +1,38 @@
+.our_team{
+  padding: 150px 0;
+  @media(max-width: 767px) {
+    padding: 50px 0;
+  }
+  .our_team_area{
+    .mb-95{
+      margin-bottom: 90px;
+      @media(max-width: 767px) {
+        margin-bottom: 40px;
+      }
+    }
+    .team_info{
+      margin-bottom: 30px;
+      .team_img{
+        img{
+          width: 100%;
+        }
+      }
+      .team_content{
+        position: relative;
+        transform: translateY(-20px);
+        transition: 0.3s;
+        .team_text{
+          border-radius: 5px;
+          display: inline-block;
+          padding: 16px 40px 11px 40px;
+          background-color: white;
+          box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+          transition: all .3s;
+          &:hover{
+            transform: translateY(-10px);
+          }
+        }
+      }
+    }
+  }
+}

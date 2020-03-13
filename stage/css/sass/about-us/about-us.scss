@@ -1,0 +1,22 @@
+// start about us
+.about_us{
+  padding-top: 73px;
+  padding-bottom: 24px;
+  @media(max-width: 767px) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .about_us_area{
+    .cate_img{
+      img{
+        width: 100%;
+      }
+    }
+    .cate_info{
+        .buttons{
+          background-image: -webkit-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
+          color: #fff;
+        }
+      }
+    }
+  }
