@@ -1,14 +1,16 @@
 .testmonial_area{
   padding: 100px 0;
+  position: relative;
+  overflow: hidden;
   @media(max-width: 767px) {
     padding: 50px 0;
   }
   .testmonial_content{
     .owl-item{
       .testmonial_info{
-        background-color: #f1f1f159;
-        padding: 60px 80px 85px 80px;
+        box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
         border-radius: 10px;
+        padding: 60px 80px 85px 80px;
         @media(max-width: 767px) {
           display: block !important;
           padding: 30px;
@@ -51,9 +53,13 @@
     }
   }
   .owl-carousel{
+    .owl-stage-outer{
+      position: relative;
+      overflow: visible;
+    }
     .owl-nav,
     .owl-dots{
-      margin-top: 10px;
+      margin-top: 30px;
       text-align: center;
       .owl-dot{
         margin: 0 5px;

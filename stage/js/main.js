@@ -16,14 +16,16 @@ btnMenu.onclick = function () {
 // });
 
 $(document).ready(function(){
-  $(".owl-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
+  $('.owl-carousel').owlCarousel({
+    stagePadding: 50,
+    loop:true,
+    margin:100,
+    items:1,
+    autoplay:true,
+    autoplayHoverPause: true,
+    autoplaySpeed: 800,
   });
 });
-
 
 
 var myNav = document.querySelector('.header_area_bottom');
